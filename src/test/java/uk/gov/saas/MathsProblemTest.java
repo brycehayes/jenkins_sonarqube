@@ -16,6 +16,6 @@ public class MathsProblemTest {
 		
 		sum = mathsProblem.add(3, 5);
 		
-		assertEquals("The add method returned an incorrect value", 8, sum);
+		assertEquals("The add method returned an incorrect value", 7, sum);
 	}
 }
