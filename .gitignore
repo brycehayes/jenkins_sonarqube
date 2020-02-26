@@ -1,3 +1,6 @@
+.classpath
+.project
+.settings
 target/
 
-target/classes/META-INF/MANIFEST.MF
+
