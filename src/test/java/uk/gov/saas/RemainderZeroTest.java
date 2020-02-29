@@ -15,8 +15,7 @@ public class RemainderZeroTest {
 		int y = 4;
 		boolean remainderZero;
 		
-		remainderZero = remZero.checkRemainderIsZero(x, y);
-		
+		remainderZero = remZero.checkRemainderIsZero(x, y);		
 		assertEquals("The remainder is zero.", true, remainderZero);
 	}
 	
@@ -26,9 +25,7 @@ public class RemainderZeroTest {
 		int j = 5;
 		int result;
 		
-		result = remZero.findRemainder(i, j);
-		
-		assertEquals("The remainder is non-zero.", 2, result);
-		
+		result = remZero.findRemainder(i, j);		
+		assertEquals("The remainder is non-zero.", 4, result);		
 	}
 }
