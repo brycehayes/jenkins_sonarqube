@@ -26,6 +26,6 @@ public class RemainderZeroTest {
 		int result;
 		
 		result = remZero.findRemainder(i, j);		
-		assertEquals("The remainder is non-zero.", 4, result);		
+		assertEquals("The remainder is non-zero.", 3, result);		
 	}
 }
