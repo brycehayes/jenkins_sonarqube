@@ -6,7 +6,7 @@ public class MathsProblem {
 	private int y = 0;
 	
 	
-	public int add(int x, int y) {
+	public in add(int x, int y) {
 		this.x = x;
 		this.y = y;
 		
